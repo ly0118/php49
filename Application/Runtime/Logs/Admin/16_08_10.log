@@ -1,0 +1,110 @@
+[ 2016-08-10T19:45:03+08:00 ] 127.0.0.1 /index.php/Admin/Test/test33
+ERR: Think\Model:file方法不存在！
+
+[ 2016-08-10T19:48:08+08:00 ] 127.0.0.1 /index.php/Admin/Test/test34
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_dept` ORDER BY id,desc 
+
+[ 2016-08-10T19:48:39+08:00 ] 127.0.0.1 /index.php/Admin/Test/test34
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_dept` ORDER BY id,desc 
+
+[ 2016-08-10T21:06:24+08:00 ] 127.0.0.1 /index.php/Admin/Dept/css/base.css
+ERR: 非法操作:css
+
+[ 2016-08-10T21:06:24+08:00 ] 127.0.0.1 /index.php/Admin/Dept/css/info-reg.css
+ERR: 非法操作:css
+
+[ 2016-08-10T21:06:24+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/common.js
+ERR: 非法操作:js
+
+[ 2016-08-10T21:06:24+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/WdatePicker.js
+ERR: 非法操作:js
+
+[ 2016-08-10T21:06:24+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/jquery.js
+ERR: 非法操作:js
+
+[ 2016-08-10T21:06:24+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/common.js
+ERR: 非法操作:js
+
+[ 2016-08-10T21:06:24+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/WdatePicker.js
+ERR: 非法操作:js
+
+[ 2016-08-10T21:24:42+08:00 ] 127.0.0.1 /index.php/Admin/Dept/css/info-reg.css
+ERR: 非法操作:css
+
+[ 2016-08-10T21:24:42+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/WdatePicker.js
+ERR: 非法操作:js
+
+[ 2016-08-10T21:24:42+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/jquery.js
+ERR: 非法操作:js
+
+[ 2016-08-10T21:24:42+08:00 ] 127.0.0.1 /index.php/Admin/Dept/css/base.css
+ERR: 非法操作:css
+
+[ 2016-08-10T21:24:42+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/common.js
+ERR: 非法操作:js
+
+[ 2016-08-10T21:24:42+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/WdatePicker.js
+ERR: 非法操作:js
+
+[ 2016-08-10T21:24:43+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/jquery.js
+ERR: 非法操作:js
+
+[ 2016-08-10T21:24:43+08:00 ] 127.0.0.1 /index.php/Admin/Dept/css/info-reg.css
+ERR: 非法操作:css
+
+[ 2016-08-10T21:24:43+08:00 ] 127.0.0.1 /index.php/Admin/Dept/css/base.css
+ERR: 非法操作:css
+
+[ 2016-08-10T21:24:43+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/WdatePicker.js
+ERR: 非法操作:js
+
+[ 2016-08-10T21:24:43+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/common.js
+ERR: 非法操作:js
+
+[ 2016-08-10T21:24:43+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/WdatePicker.js
+ERR: 非法操作:js
+
+[ 2016-08-10T21:24:44+08:00 ] 127.0.0.1 /index.php/Admin/Dept/css/info-reg.css
+ERR: 非法操作:css
+
+[ 2016-08-10T21:24:44+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/common.js
+ERR: 非法操作:js
+
+[ 2016-08-10T21:24:44+08:00 ] 127.0.0.1 /index.php/Admin/Dept/css/base.css
+ERR: 非法操作:css
+
+[ 2016-08-10T21:24:44+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/WdatePicker.js
+ERR: 非法操作:js
+
+[ 2016-08-10T21:24:44+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/jquery.js
+ERR: 非法操作:js
+
+[ 2016-08-10T21:24:44+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/common.js
+ERR: 非法操作:js
+
+[ 2016-08-10T21:24:44+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/WdatePicker.js
+ERR: 非法操作:js
+
+[ 2016-08-10T21:29:17+08:00 ] 127.0.0.1 /index.php/Admin/Dept/css/info-reg.css
+ERR: 非法操作:css
+
+[ 2016-08-10T21:29:17+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/jquery.js
+ERR: 非法操作:js
+
+[ 2016-08-10T21:29:17+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/common.js
+ERR: 非法操作:js
+
+[ 2016-08-10T21:29:17+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/WdatePicker.js
+ERR: 非法操作:js
+
+[ 2016-08-10T21:29:17+08:00 ] 127.0.0.1 /index.php/Admin/Dept/css/base.css
+ERR: 非法操作:css
+
+[ 2016-08-10T21:29:17+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/common.js
+ERR: 非法操作:js
+
+[ 2016-08-10T21:29:17+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/WdatePicker.js
+ERR: 非法操作:js
+

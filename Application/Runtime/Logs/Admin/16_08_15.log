@@ -1,0 +1,16 @@
+[ 2016-08-15T18:59:05+08:00 ] 127.0.0.1 /index.php/Admin/Doc/del/id/1
+ERR: Think\Model:datele方法不存在！
+
+[ 2016-08-15T18:59:23+08:00 ] 127.0.0.1 /index.php/Admin/Doc/del/id/1
+ERR: Think\Model:detele方法不存在！
+
+[ 2016-08-15T19:15:06+08:00 ] 127.0.0.1 /index.php/Admin/Knowledog/add
+ERR: 无法加载控制器:Knowledog
+
+[ 2016-08-15T19:44:47+08:00 ] 127.0.0.1 /index.php/Admin/Knowledog/add
+ERR: 无法加载控制器:Knowledog
+
+[ 2016-08-15T20:25:45+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/addOk
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_knowledge` (`title`,`id`,`author`,`description`,`content`,`picture`,`thumb`,`addtime`) VALUES ('admin','1','admin ','assddfdsgffhgjkl','asdfghjkl','/Public/Upload/2016-08-15/57b1b4c7c788b.jpg','/Public/Upload/2016-08-15/thumb_57b1b4c7c788b.jpg','1471263943')
+

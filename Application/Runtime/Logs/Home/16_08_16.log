@@ -1,0 +1,9 @@
+[ 2016-08-16T16:48:16+08:00 ] 127.0.0.1 /index.php/Home/Test/test2
+ERR: 非法操作:test2
+
+[ 2016-08-16T16:51:27+08:00 ] 127.0.0.1 /index.php/Home/Test/test2
+ERR: 非法操作:test2
+
+[ 2016-08-16T16:51:30+08:00 ] 127.0.0.1 /index.php/Home/Test/test2
+ERR: 非法操作:test2
+

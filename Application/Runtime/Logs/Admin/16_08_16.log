@@ -1,0 +1,48 @@
+[ 2016-08-16T14:48:36+08:00 ] 127.0.0.1 /index.php/Admin/Email/recBox.html
+ERR: 非法操作:recBox
+
+[ 2016-08-16T14:58:55+08:00 ] 127.0.0.1 /index.php/Admin/Email/send.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_user` WHERE ( id !=  ) 
+
+[ 2016-08-16T15:00:53+08:00 ] 127.0.0.1 /index.php/Admin/Email/send.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_user` WHERE ( id !=  ) 
+
+[ 2016-08-16T15:02:43+08:00 ] 127.0.0.1 /index.php/Admin/Email/send.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_user` WHERE ( id !=  ) 
+
+[ 2016-08-16T15:05:09+08:00 ] 127.0.0.1 /index.php/Admin/Email/send.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_user` WHERE ( id !=  ) 
+
+[ 2016-08-16T15:45:18+08:00 ] 127.0.0.1 /index.php/Admin/Email/sendBox.html
+ERR: Think\Model:file方法不存在！
+
+[ 2016-08-16T15:45:41+08:00 ] 127.0.0.1 /index.php/Admin/Email/sendBox.html
+ERR: 1146:Table 'db_oa.from' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `from`
+
+[ 2016-08-16T15:46:03+08:00 ] 127.0.0.1 /index.php/Admin/Email/sendBox.html
+ERR: 1146:Table 'db_oa.tp_eamil' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_eamil`
+
+[ 2016-08-16T15:47:42+08:00 ] 127.0.0.1 /index.php/Admin/Email/sendBox.html
+ERR: 1066:Not unique table/alias: 't1'
+ [ SQL语句 ] : SELECT t1.*,t2.truename as truename FROM tp_email as t1,tp_user as t1 WHERE ( t1.from_id = t2.id and from_id =  1 ) 
+
+[ 2016-08-16T16:05:50+08:00 ] 127.0.0.1 /index.php/Admin/Email/download/id/%201
+ERR: 非法操作:download
+
+[ 2016-08-16T16:24:04+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/5
+ERR: 1054:Unknown column '$id' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `tp_email` WHERE ( id = $id and isread = 0 and form_id = 1 )
+
+[ 2016-08-16T16:24:47+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/5
+ERR: 1054:Unknown column 'form_id' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `tp_email` WHERE ( id = 5 and isread = 0 and form_id = 1 )
+
+[ 2016-08-16T16:49:51+08:00 ] 127.0.0.1 /index.php/Admin/Empty
+ERR: 模板不存在:./Application/Admin/View/Empty/index.html
+

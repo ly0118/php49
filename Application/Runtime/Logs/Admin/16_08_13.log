@@ -1,0 +1,125 @@
+[ 2016-08-13T09:10:15+08:00 ] 127.0.0.1 /index.php/Admin/User/add.html
+ERR: 无法加载控制器:User
+
+[ 2016-08-13T09:10:16+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+ERR: 无法加载控制器:User
+
+[ 2016-08-13T09:10:16+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+ERR: 无法加载控制器:User
+
+[ 2016-08-13T09:10:17+08:00 ] 127.0.0.1 /index.php/Admin/User/add.html
+ERR: 无法加载控制器:User
+
+[ 2016-08-13T09:17:24+08:00 ] 127.0.0.1 /index.php/Admin/Dept/login
+ERR: 非法操作:login
+
+[ 2016-08-13T09:18:02+08:00 ] 127.0.0.1 /index.php/Admin/Public/index.html
+ERR: 非法操作:index
+
+[ 2016-08-13T09:29:09+08:00 ] 127.0.0.1 /index.php/Admin/User/addOk
+ERR: 非法操作:addOk
+
+[ 2016-08-13T12:48:45+08:00 ] 127.0.0.1 /index.php/Admin/User/addOk
+ERR: 1292:Incorrect date value: '' for column 'birthday' at row 1
+ [ SQL语句 ] : INSERT INTO `tp_user` (`username`,`password`,`truename`,`nickname`,`dept_id`,`sex`,`birthday`,`tel`,`email`,`remark`,`addtime`) VALUES ('','','','','-1','男','','','','','1471063724')
+
+[ 2016-08-13T17:06:01+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+ERR: Think\Model:limint方法不存在！
+
+[ 2016-08-13T17:33:12+08:00 ] 127.0.0.1 /index.php/Admin/Test/test51
+ERR: 非法操作:test51
+
+[ 2016-08-13T17:33:13+08:00 ] 127.0.0.1 /index.php/Admin/Test/test51
+ERR: 非法操作:test51
+
+[ 2016-08-13T17:33:26+08:00 ] 127.0.0.1 /index.php/Admin/Test/text51
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.dept_id = t2.id INNER JOIN  from tp_user as t1 left tp_dept as t2' at line 1
+ [ SQL语句 ] : SELECT t1.*,t2.name as deptname FROM tp_ t1.dept_id = t2.id INNER JOIN  from tp_user as t1 left tp_dept as t2  
+
+[ 2016-08-13T18:14:29+08:00 ] 127.0.0.1 /index.php/Admin/Test/test51
+ERR: 非法操作:test51
+
+[ 2016-08-13T18:14:31+08:00 ] 127.0.0.1 /index.php/Admin/Test/test51
+ERR: 非法操作:test51
+
+[ 2016-08-13T18:14:37+08:00 ] 127.0.0.1 /index.php/Admin/Test/text51
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'left tp_dept as t2 on t1.dept_id = t2.id' at line 1
+ [ SQL语句 ] : SELECT t1.*,t2.name as deptname FROM tp_ t1 INNER JOIN  left tp_dept as t2 on t1.dept_id = t2.id  
+
+[ 2016-08-13T18:15:39+08:00 ] 127.0.0.1 /index.php/Admin/Test/text51
+ERR: 1146:Table 'db_oa.tp_' doesn't exist
+ [ SQL语句 ] : SELECT t1.*,t2.name as deptname FROM tp_ t1  left join tp_dept as t2 on t1.dept_id = t2.id  
+
+[ 2016-08-13T18:17:29+08:00 ] 127.0.0.1 /index.php/Admin/Test/text51
+ERR: 1146:Table 'db_oa.tp_' doesn't exist
+ [ SQL语句 ] : SELECT t1.*,t2.name as deptname FROM tp_ t1  left join tp_dept as t2 on t1.dept_id = t2.id  
+
+[ 2016-08-13T18:17:31+08:00 ] 127.0.0.1 /index.php/Admin/Test/text51
+ERR: 1146:Table 'db_oa.tp_' doesn't exist
+ [ SQL语句 ] : SELECT t1.*,t2.name as deptname FROM tp_ t1  left join tp_dept as t2 on t1.dept_id = t2.id  
+
+[ 2016-08-13T18:19:32+08:00 ] 127.0.0.1 /index.php/Admin/Test/text51
+ERR: 1054:Unknown column 't1.dept_id' in 'on clause'
+ [ SQL语句 ] : SELECT t1.*,t2.name as deptname FROM tp_dept t1  left join tp_dept as t2 on t1.dept_id = t2.id  
+
+[ 2016-08-13T18:33:14+08:00 ] 127.0.0.1 /index.php/Admin/Test/text51
+ERR: 1054:Unknown column 't1.pid' in 'on clause'
+ [ SQL语句 ] : SELECT t1.*,t2.name as deptname FROM tp_user t1  left join tp_dept as t2 on t1.pid = t2.id  
+
+[ 2016-08-13T19:11:14+08:00 ] 127.0.0.1 /index.php/Admin/User/del/ids/undefined,unde
+ERR: Think\Model:detele方法不存在！
+
+[ 2016-08-13T19:22:50+08:00 ] 127.0.0.1 /index.php/Admin/Index/edit
+ERR: 非法操作:edit
+
+[ 2016-08-13T19:52:36+08:00 ] 127.0.0.1 /index.php/Admin/User/editOk
+ERR: 非法操作:editOk
+
+[ 2016-08-13T19:53:26+08:00 ] 127.0.0.1 /index.php/Admin/User/editOk
+ERR: 非法操作:editOk
+
+[ 2016-08-13T19:57:11+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+ERR: 非法操作:index
+
+[ 2016-08-13T20:19:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/charets
+ERR: 非法操作:charets
+
+[ 2016-08-13T20:19:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+ERR: 非法操作:charts
+
+[ 2016-08-13T20:19:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+ERR: 非法操作:charts
+
+[ 2016-08-13T20:19:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+ERR: 非法操作:charts
+
+[ 2016-08-13T20:19:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+ERR: 非法操作:charts
+
+[ 2016-08-13T20:19:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+ERR: 非法操作:charts
+
+[ 2016-08-13T20:27:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+ERR: 非法操作:charts
+
+[ 2016-08-13T20:27:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+ERR: 非法操作:charts
+
+[ 2016-08-13T20:27:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+ERR: 非法操作:charts
+
+[ 2016-08-13T20:27:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+ERR: 非法操作:charts
+
+[ 2016-08-13T21:44:29+08:00 ] 127.0.0.1 /index.php/Admin/User/charts
+ERR: 模板不存在:./Application/Admin/View/User/charts.html
+
+[ 2016-08-13T22:35:59+08:00 ] 127.0.0.1 /index.php/Admin/Dept/editOK.html
+ERR: 非法操作:editOK
+
+[ 2016-08-13T22:38:29+08:00 ] 127.0.0.1 /index.php/Admin/Dept/__CONREOLLER__/edit/id/[object%20Object]
+ERR: 非法操作:__CONREOLLER__
+
+[ 2016-08-13T22:44:58+08:00 ] 127.0.0.1 /index.php/Admin/Dept/editOK.html
+ERR: 非法操作:editOK
+
